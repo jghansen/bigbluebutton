@@ -29,6 +29,7 @@
 	</mx:Script>
 	<mx:Label id="nameLabel" textAlign="left" text="{data.name} {data.me ? '(' + ResourceUtil.getInstance().getString('bbb.users.usersGrid.nameItemRenderer.youIdentifier') + ')' : ''}" 
 		fontWeight="{data.me ? 'bold' : 'normal'}"
-		color="{data.me ? 0x003399 : 0x000000}"
-		toolTip="{data.name}"/>
+		color="{data.me ? 0xa8156c : 0x000000}"
+		toolTip="{data.name}"
+		styleName="usersUserNameLabelStyle"/>
 </mx:HBox>

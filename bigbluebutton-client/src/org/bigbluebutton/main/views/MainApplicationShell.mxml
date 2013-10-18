@@ -423,12 +423,12 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 					  effectsLib="{flexlib.mdi.effects.effectsLib.MDIVistaEffects}" 
 					  width="100%" 
 					  height="100%">
-		<views:LoadingBar id="progressBar" horizontalCenter="0" verticalCenter="0" width="50%" />
+		<!--<views:LoadingBar id="progressBar" horizontalCenter="0" verticalCenter="0" width="50%" />-->
 		<views:BrandingLogo x="{this.width - 300}" y="{this.height - 300}" />
 	</views:MainCanvas>	
 	
 	<mx:ControlBar width="100%" height="{footerHeight}" paddingTop="0">		
-	  <mx:Text htmlText="{ResourceUtil.getInstance().getString('bbb.mainshell.copyrightLabel2',[appVersion])}" id="copyrightLabel2"/>
+<!--	  <mx:Text htmlText="{ResourceUtil.getInstance().getString('bbb.mainshell.copyrightLabel2',[appVersion])}" id="copyrightLabel2"/> -->
 	 	<mx:Spacer width="20"/>
 		<mx:Spacer width="100%"/> 
     <mx:Label text="{isTunneling ? '[Tunnelling]' : ''}" id="isTunnellingLbl"/>
