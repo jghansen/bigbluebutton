@@ -93,7 +93,8 @@ package org.bigbluebutton.modules.chat.services
         msg.chatType = ChatConstants.PUBLIC_CHAT;
         msg.fromUserID = SPACE;
         msg.fromUsername = SPACE;
-        msg.fromColor = "86187";
+//        msg.fromColor = "86187";
+        msg.fromColor = "0xa8156c";
         msg.fromLang = "en";
         msg.fromTime = new Date().getTime();
         msg.fromTimezoneOffset = new Date().getTimezoneOffset();
